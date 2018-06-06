@@ -1,50 +1,45 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat';
+  background-color: #FF8C69;
+  font-family: 'Comic Sans MS';
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 6.7%);
 }
-
 #links{
-  margin-top: 15px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
-
-#developed{
-	color: white;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 15px;
+#developer{
+  color: #000000;
+ ;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
-
 #names{
-	font-weight: bolder;
-	font-size: 25px;
-	color: red;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #000000;
+ ;
 }
-
 #videotags{
   margin: 0 auto;
   display: block;
 }
-
 a#video{
   text-align: center;
   margin-top: 10px;
   padding: 4px;
 }
-
 a#video:hover{
-  background: #98FB98;
-  color: black;
+  background: #8C2100;
+  color: #FFFFFF;
 }
-
-
 #title{
-	text-align: center;
-	color: white;
+  text-align: center;
+  font-size: 30px;
+  color:#FFFFFF;
 }
