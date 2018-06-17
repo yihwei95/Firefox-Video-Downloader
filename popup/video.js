@@ -66,10 +66,7 @@ for (x = 0; x < urls.length; x++) {
 }
 
 var site = ['https://youtubetoany.com/@api/button/mp3/'];
-//var length = 32;
 var URL1 = localStorage.getItem('URL1');
-//var youtubeVideoID = URL1.substring(length);
 var youtubeVideoID = URL1.split('=');
 var link = site + youtubeVideoID[1];
 document.getElementById('audioLinks').src = link;
-window.alert(youtubeVideoID[1]); 
